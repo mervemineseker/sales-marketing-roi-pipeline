@@ -23,7 +23,7 @@ CSV Files → Azure Blob Storage → Azure Data Factory → Azure SQL Database �
 - Typed **fact tables** are populated using SQL stored procedures
 - Incremental-safe design using truncate + insert logic
 
-[sales-marketing-roi-pipeline/adf/pipeline2.png]
+![](sales-marketing-roi-pipeline/adf/pipeline2.png)
 
 ---
 
@@ -41,7 +41,7 @@ The analytics layer is built using a **star schema** design:
 
 This modeling approach removes many-to-many relationships and ensures optimal Power BI performance.
 
-[sales-marketing-roi-pipeline/powerbi/model_view.png]
+![](sales-marketing-roi-pipeline/powerbi/model_view.png)
 
 ---
 
@@ -59,7 +59,7 @@ The dashboard provides executive-level KPIs including:
 
 ### Executive Overview
 
-[sales-marketing-roi-pipeline/powerbi/executive_overview.png]
+![](sales-marketing-roi-pipeline/powerbi/executive_overview.png)
 
 ## 🔧 Technologies Used
 - Azure Data Factory
