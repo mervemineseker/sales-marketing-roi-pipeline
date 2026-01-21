@@ -15,8 +15,6 @@ Raw CSV data is processed through a cloud-based analytics pipeline:
 
 CSV Files → Azure Blob Storage → Azure Data Factory → Azure SQL Database → Power BI
 
-![ADF Pipeline](screenshots/adf_pipeline.png)
-
 ---
 
 ## 🔄 Data Ingestion & ETL
@@ -25,7 +23,7 @@ CSV Files → Azure Blob Storage → Azure Data Factory → Azure SQL Database �
 - Typed **fact tables** are populated using SQL stored procedures
 - Incremental-safe design using truncate + insert logic
 
-![ADF Run Success](screenshots/adf_run_success.png)
+sales-marketing-roi-pipeline/adf/pipeline2.png
 
 ---
 
@@ -43,7 +41,7 @@ The analytics layer is built using a **star schema** design:
 
 This modeling approach removes many-to-many relationships and ensures optimal Power BI performance.
 
-![Star Schema Model](screenshots/model_star_schema.png)
+sales-marketing-roi-pipeline/powerbi/model_view.png
 
 ---
 
@@ -55,6 +53,13 @@ The dashboard provides executive-level KPIs including:
 - **CPC (Cost Per Click)**
 - Spend & Revenue trends over time
 
+---
+
+## 📈 Dashboard Overview
+
+### Executive Overview
+
+sales-marketing-roi-pipeline/powerbi/executive_overview.png
 ---
 
 ## 🔧 Technologies Used
@@ -72,3 +77,4 @@ This project demonstrates an end-to-end analytics solution with:
 - Proper star schema data modeling
 - Executive-ready KPI dashboards
 - Strong focus on business impact and decision support
+
